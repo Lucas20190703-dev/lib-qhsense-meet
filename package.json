@@ -1,0 +1,66 @@
+{
+  "author": "",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@qhsense/sdp-interop": "https://github.com/Lucas20190703-dev/sdp-interop.git",
+    "@qhsense/sdp-simulcast": "https://github.com/Lucas20190703-dev/sdp-simulcast.git",
+    "async": "0.9.0",
+    "current-executing-script": "0.1.3",
+    "js-utils": "https://github.com/Lucas20190703/js-utils.git",
+    "lodash.isequal": "4.5.0",
+    "qhsense-meet-logger": "https://github.com/Lucas20190703/qhsense-meet-logger",
+    "sdp-transform": "2.3.0",
+    "strophe.js": "1.2.16",
+    "strophejs-plugin-disco": "0.0.2",
+    "webrtc-adapter": "github:webrtc/adapter#1eec19782b4058d186341263e7d049cea3e3290a"
+  },
+  "deprecated": false,
+  "description": "JS library for accessing QHSense server side deployments",
+  "devDependencies": {
+    "@babel/core": "7.1.2",
+    "@babel/plugin-proposal-class-properties": "7.1.0",
+    "@babel/plugin-proposal-export-namespace-from": "7.0.0",
+    "@babel/plugin-transform-flow-strip-types": "7.0.0",
+    "@babel/preset-env": "7.1.0",
+    "@babel/preset-flow": "7.0.0",
+    "babel-eslint": "10.0.1",
+    "babel-loader": "8.0.4",
+    "core-js": "2.5.1",
+    "eslint": "4.12.1",
+    "eslint-config-qhsense": "https://github.com/Lucas20190703-dev/eslint-config-qhsense.git",
+    "eslint-plugin-flowtype": "2.39.1",
+    "eslint-plugin-import": "2.8.0",
+    "flow-bin": "0.92.0",
+    "jasmine-core": "2.5.2",
+    "karma": "3.0.0",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-jasmine": "1.1.2",
+    "karma-webpack": "3.0.0",
+    "precommit-hook": "3.0.0",
+    "string-replace-loader": "2.1.1",
+    "webpack": "4.26.1",
+    "webpack-cli": "3.1.2"
+  },
+  "keywords": [
+    "jingle",
+    "webrtc",
+    "xmpp",
+    "browser",
+    "qhsense"
+  ],
+  "license": "Apache-2.0",
+  "main": "./index.js",
+  "name": "lib-qhsense-meet",
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "scripts": {
+    "lint": "eslint . && flow",
+    "postinstall": "webpack -p",
+    "test": "karma start karma.conf.js",
+    "test-watch": "karma start karma.conf.js --no-single-run",
+    "validate": "npm ls"
+  },
+  "version": "0.0.0"
+}
