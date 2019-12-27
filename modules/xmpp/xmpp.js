@@ -631,7 +631,7 @@ export default class XMPP extends Listenable {
             /* eslint-disable camelcase */
             details.shard_changed
                 = this.options.deploymentInfo.shard
-                    !== headers['x-qhsense-shard'];
+                    !== headers['x-jitsi-shard'];
             /* eslint-enable camelcase */
         }
 
