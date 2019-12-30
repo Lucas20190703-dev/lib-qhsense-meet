@@ -20,7 +20,7 @@ const config = {
                     process.env.LIB_QHSENSE_MEET_COMMIT_HASH || 'development',
                 search: '{#COMMIT_HASH#}'
             },
-            test: `${__dirname}/QHSenseMeetJS.js`
+            test: `${__dirname}/src/QHSenseMeetJS.js`
         }, {
             // Transpile ES2015 (aka ES6) to ES5.
 

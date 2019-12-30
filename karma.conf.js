@@ -16,7 +16,6 @@ module.exports = function(config) {
         files: [
             'node_modules/core-js/index.js',
             './index.js',
-            './modules/**/*.spec.js'
         ],
 
         // list of files to exclude
