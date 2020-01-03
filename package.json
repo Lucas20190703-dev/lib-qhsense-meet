@@ -10,10 +10,14 @@
     "browser",
     "qhsense"
   ],
-  "author": "blueshark818",
+  "author": "lucas20190703@gmail.com",
+  "homepage": "https://github.com/Lucas20190703-dev/lib-qhsense-meet",
+  "bugs": {
+    "url": "https://github.com/Lucas20190703-dev/lib-qhsense-meet/issues"
+  },
   "license": "ISC",
   "dependencies": {
-    "lib-jitsi-meet": "github:jitsi/lib-jitsi-meet#c73bc490ed88c5851ea302a599ca9cc1330eed08"
+    "lib-jitsi-meet": "1.0.2"
   },
   "bundleDependencies": false,
   "devDependencies": {
@@ -27,7 +31,7 @@
     "babel-loader": "8.0.4",
     "core-js": "2.5.1",
     "eslint": "4.12.1",
-    "eslint-config-jitsi": "github:jitsi/eslint-config-jitsi#1.0.0",
+    "eslint-config-qhsense": "https://github.com/Lucas20190703-dev/eslint-config-qhsense",
     "eslint-plugin-flowtype": "2.39.1",
     "eslint-plugin-import": "2.8.0",
     "flow-bin": "0.104.0",

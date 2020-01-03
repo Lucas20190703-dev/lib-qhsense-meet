@@ -10,16 +10,16 @@
  * last (known) error message
  */
 
-import {
-    CONNECTION_DISCONNECTED,
-    CONNECTION_ESTABLISHED,
-    CONNECTION_FAILED,
-    WRONG_STATE,
-} from 'lib-jitsi-meet/JitsiConnectionEvents'
+// import {
+//     CONNECTION_DISCONNECTED,
+//     CONNECTION_ESTABLISHED,
+//     CONNECTION_FAILED,
+//     WRONG_STATE,
+// } from 'lib-jitsi-meet/dist/lib-jitsi-meet.min/JitsiConnectionEvents'
 
-export {
-    CONNECTION_DISCONNECTED,
-    CONNECTION_ESTABLISHED,
-    CONNECTION_FAILED,
-    WRONG_STATE,
-}
+// export {
+//     CONNECTION_DISCONNECTED,
+//     CONNECTION_ESTABLISHED,
+//     CONNECTION_FAILED,
+//     WRONG_STATE,
+// }

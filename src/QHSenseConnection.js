@@ -1,5 +1,5 @@
 
-import JitsiConnection from 'lib-jitsi-meet/JitsiConnection';
+import JitsiMeetJS from 'lib-jitsi-meet';
 
 /**
  * Creates a new connection object for the QHSense Meet server side video
@@ -13,7 +13,7 @@ import JitsiConnection from 'lib-jitsi-meet/JitsiConnection';
  */
 
 
-export default class QHSenseConnection extends JitsiConnection {
+export default class QHSenseConnection extends JitsiMeetJS.JitsiConnection {
     constructor(appID, token, options) {
         super(appID, token, options);
     }
