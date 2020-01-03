@@ -15,7 +15,7 @@
 //     CONNECTION_ESTABLISHED,
 //     CONNECTION_FAILED,
 //     WRONG_STATE,
-// } from 'lib-jitsi-meet/dist/lib-jitsi-meet.min/JitsiConnectionEvents'
+// } from 'lib-jitsi-meet/lib-jitsi-meet.min/JitsiConnectionEvents'
 
 // export {
 //     CONNECTION_DISCONNECTED,

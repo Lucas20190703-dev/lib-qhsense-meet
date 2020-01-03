@@ -1,8 +1,8 @@
-import JitsiMeetJS from "lib-jitsi-meet";
+import JitsiConference from "lib-jitsi-meet/JitsiConference";
 
 /* global __filename, $, Promise */
 
-export default class QHSenseConference extends JitsiMeetJS.JitsiConference {
+export default class QHSenseConference extends JitsiConference {
     constructor(options){
         super(options);
     }

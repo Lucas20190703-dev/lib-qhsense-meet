@@ -1,6 +1,6 @@
-import JitsiMeetJS from 'lib-jitsi-meet'
+import JitsiConferenceEnventManager from 'lib-jitsi-meet/JitsiConferenceEventManager'
 
-export default class QHSenseConferenceEventManager extends JitsiMeetJS.JitsiConferenceEnventManager {
+export default class QHSenseConferenceEventManager extends JitsiConferenceEnventManager {
     constructor(conference){
         super(conference);
     }

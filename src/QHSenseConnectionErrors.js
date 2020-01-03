@@ -7,7 +7,7 @@
     OTHER_ERROR,
     PASSWORD_REQUIRED,
     SERVER_ERROR,
- } from 'lib-jitsi-meet/dist/JitsiConnectionErrors'
+ } from 'lib-jitsi-meet/JitsiConnectionErrors'
  
  export {
     CONNECTION_DROPPED_ERROR,

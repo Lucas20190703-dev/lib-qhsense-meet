@@ -17,7 +17,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "lib-jitsi-meet": "1.0.2"
+    "lib-jitsi-meet": "github:jitsi/lib-jitsi-meet#c73bc490ed88c5851ea302a599ca9cc1330eed08"
   },
   "bundleDependencies": false,
   "devDependencies": {
